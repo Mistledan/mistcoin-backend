@@ -1,3 +1,6 @@
+app.get("/", (req, res) => {
+  res.send("MistCoin Backend is Live 🚀");
+});
 const express = require('express');
 const cors = require('cors');
 
